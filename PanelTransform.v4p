@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
-   <PATCH nodename="C:\Working\Gravity\Video\Gravity.TransformPanels.v4p">
-   <BOUNDS height="10755" left="8940" top="765" type="Window" width="9705">
+   <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\PanelTransform.v4p">
+   <BOUNDS height="10755" left="64620" top="12990" type="Window" width="9705">
    </BOUNDS>
    <NODE componentmode="InABox" id="25" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
    <BOUNDS height="0" left="465" top="360" type="Node" width="0">
@@ -29,7 +29,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="0" top="0" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="translate" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="translate">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -43,7 +43,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="0" top="0" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="z" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="z">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -57,7 +57,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="0" top="0" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="x" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="x">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -81,7 +81,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.283,0.283,0.281">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.338,0.34,0.34">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="20" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
@@ -101,7 +101,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.24,0,-0.24">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.251,0.016,-0.219">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="19" nodename="IOBox (String)" systemname="IOBox (String)">
@@ -111,7 +111,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="-60" top="135" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="x" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="x">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -125,7 +125,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="-60" top="135" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="y" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="y">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -149,7 +149,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.402,0.402,0.3992">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.224,0.227,0.232">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="16" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
@@ -169,7 +169,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.19,0.19,0.19">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.157,0.158,0.155">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="15" nodename="IOBox (String)" systemname="IOBox (String)">
@@ -179,7 +179,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="405" top="75" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="scale" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="scale">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -195,7 +195,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="-60" top="150" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="x" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="x">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -209,7 +209,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="-60" top="150" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="y" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="y">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -243,7 +243,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="405" top="90" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="rotate" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="rotate">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -269,7 +269,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0,0,0">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.002,0,-0.001">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="9" nodename="IOBox (String)" systemname="IOBox (String)">
@@ -279,7 +279,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="-60" top="150" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="z" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="z">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -303,9 +303,9 @@
    </PIN>
    <PIN pinname="Y Output Value" pintype="Output" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" pintype="Input" slicecount="8" visible="1" values="0,0,0,0,0,0,0,0">
+   <PIN pinname="Y Input Value" pintype="Input" slicecount="8" visible="1" values="0,0,0,0,0,0.002,0,0.009">
    </PIN>
-   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||" encoded="0">
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" encoded="0" values="||">
    </PIN>
    <PIN pinname="Pages" pintype="Configuration" slicecount="1" values="1">
    </PIN>
@@ -353,7 +353,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="0" top="0" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="0" values="y" encoded="0">
+   <PIN pinname="Input String" slicecount="1" visible="0" encoded="0" values="y">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -427,7 +427,7 @@
    </PIN>
    <PIN pinname="Play" visible="1">
    </PIN>
-   <PIN pinname="Filename" slicecount="1" values="video\test-1024-1024.avi" encoded="0">
+   <PIN pinname="Filename" slicecount="1" encoded="0" values="video\test-1024-1024.avi">
    </PIN>
    </NODE>
    <LINK dstnodeid="5" dstpinname="Video" srcnodeid="4" srcpinname="Video">
@@ -463,7 +463,7 @@
    </BOUNDS>
    <PIN pinname="Input Node" visible="1">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Transform Out|" encoded="0">
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Transform Out|">
    </PIN>
    </NODE>
    <LINK dstnodeid="2" dstpinname="Input Node" srcnodeid="6" srcpinname="Transform Out">
@@ -475,7 +475,7 @@
    </BOUNDS>
    <BOUNDS height="160" left="6300" top="8040" type="Window" width="215">
    </BOUNDS>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Scale Out|" encoded="0">
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Scale Out|">
    </PIN>
    <PIN pinname="Input Node" visible="1">
    </PIN>
