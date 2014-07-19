@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
    <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\Animation.v4p" systemname="Animation" filename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\Animation.v4p">
-   <BOUNDS type="Window" left="46860" top="4230" width="16755" height="15660">
+   <BOUNDS type="Window" left="49320" top="11340" width="16755" height="15660">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="76">
    <BOUNDS type="Node" left="3375" top="10230" width="100" height="100">
@@ -229,7 +229,7 @@
    <LINK srcnodeid="64" srcpinname="Layer" dstnodeid="66" dstpinname="Layers">
    </LINK>
    <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="63">
-   <BOUNDS type="Node" left="8790" top="11640" width="100" height="100">
+   <BOUNDS type="Node" left="11820" top="10020" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -238,8 +238,6 @@
    <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK srcnodeid="63" srcpinname="Transform Out" dstnodeid="65" dstpinname="Transform">
-   </LINK>
    <NODE systemname="Switch (Node Input)" nodename="Switch (Node Input)" componentmode="Hidden" id="62">
    <BOUNDS type="Node" left="2160" top="3300" width="100" height="100">
    </BOUNDS>
@@ -541,7 +539,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="12">
+   <PIN pinname="Y Input Value" slicecount="1" values="3">
    </PIN>
    </NODE>
    <LINK srcnodeid="42" srcpinname="Y Output Value" dstnodeid="47" dstpinname="Spread Count">
@@ -553,7 +551,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.2">
+   <PIN pinname="Y Input Value" slicecount="1" values="0.15">
    </PIN>
    </NODE>
    <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="46" dstpinname="ScaleX" linkstyle="Bezier">
@@ -599,7 +597,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="8">
+   <PIN pinname="Y Input Value" slicecount="1" values="15">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Nearest Point|">
    </PIN>
@@ -613,7 +611,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="-1">
+   <PIN pinname="Y Input Value" slicecount="1" values="-6">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Furthest Point|">
    </PIN>
@@ -641,9 +639,9 @@
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="37">
    <BOUNDS type="Node" left="6330" top="1425" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Destination Minimum" slicecount="1" values="8">
+   <PIN pinname="Destination Minimum" slicecount="1" values="80">
    </PIN>
-   <PIN pinname="Destination Maximum" slicecount="1" values="0.3">
+   <PIN pinname="Destination Maximum" slicecount="1" values="6">
    </PIN>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -663,15 +661,13 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Speed (0 - 1)|">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.2">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Minimum" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Maximum" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="36" srcpinname="Y Output Value" dstnodeid="37" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="66" srcpinname="Actual Backbuffer Width" dstnodeid="76" dstpinname="Backbuffer Width">
    </LINK>
    <LINK srcnodeid="66" srcpinname="Actual Backbuffer Width" dstnodeid="45" dstpinname="Aspect Width">
@@ -1266,22 +1262,16 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="Layer" dstnodeid="72" dstpinname="Layer 3">
    </LINK>
-   <NODE id="2" systemname="Mask" filename="Mask.v4p" nodename="Mask.v4p" componentmode="Hidden">
+   <NODE id="2" systemname="Mask" filename="Mask.v4p" nodename="Mask.v4p" componentmode="InAWindow">
    <PIN pinname="Transform" visible="1">
    </PIN>
    <BOUNDS type="Node" left="10080" top="12090" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="5790" top="4830" width="10950" height="6285">
+   <BOUNDS type="Window" left="55185" top="4650" width="10950" height="6285">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="63" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform" linkstyle="Bezier">
-   <LINKPOINT x="8850" y="11985">
-   </LINKPOINT>
-   <LINKPOINT x="10080" y="11985">
-   </LINKPOINT>
-   </LINK>
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="64" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="32" srcpinname="Y Output Value" dstnodeid="53" dstpinname="Pause">
@@ -1322,6 +1312,36 @@
    </LINK>
    <LINK srcnodeid="77" srcpinname="Texture Out" dstnodeid="1" dstpinname="Input Node">
    <LINKPOINT x="10080" y="13875">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="LFO (Animation)" nodename="LFO (Animation)" componentmode="Hidden" id="78">
+   <BOUNDS type="Node" left="8085" top="810" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Period" slicecount="1" values="30">
+   </PIN>
+   </NODE>
+   <NODE systemname="WaveShaper (Value)" nodename="WaveShaper (Value)" componentmode="Hidden" id="79">
+   <BOUNDS type="Node" left="8340" top="1335" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Shape" slicecount="1" values="Sine">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="78" srcpinname="Output" dstnodeid="79" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="79" srcpinname="Output" dstnodeid="37" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="63" srcpinname="Transform Out" dstnodeid="65" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="63" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform" linkstyle="Bezier">
+   <LINKPOINT x="10870" y="10905">
+   </LINKPOINT>
+   <LINKPOINT x="11090" y="11445">
    </LINKPOINT>
    </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
-   <PATCH nodename="C:\Working\Light-Waves\Tunnels\3.applying generated textures to tunnel\1a.sketch7\Mask.v4p" systemname="test" filename="C:\Working\Light-Waves\test.v4p">
-   <BOUNDS type="Window" left="5790" top="4830" width="10950" height="6285">
+   <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\Mask.v4p" systemname="test" filename="C:\Working\Light-Waves\test.v4p">
+   <BOUNDS type="Window" left="54975" top="11475" width="10950" height="6285">
    </BOUNDS>
    <NODE componentmode="Hidden" id="160" nodename="DynamicTexture (EX9.Texture Value)" systemname="DynamicTexture (EX9.Texture Value)">
    <BOUNDS height="0" left="8445" top="3090" type="Node" width="0">
@@ -213,7 +213,7 @@
    </PIN>
    <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
    </PIN>
-   <PIN pinname="Y Input Value" visible="1" slicecount="8" values="0,0,0,0,0.15,0.5,0.85,1">
+   <PIN pinname="Y Input Value" visible="1" slicecount="8" values="0,0,0,0,0.11,0.42,0.91,1">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
