@@ -149,7 +149,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,-0.17,0,0,0.275,0.28,0.29">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,-0.17,0,0,0.24,0.232,0.24">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="16" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
@@ -169,7 +169,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.191,0.192,0.189">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.158,0.159,0.156">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="15" nodename="IOBox (String)" systemname="IOBox (String)">
