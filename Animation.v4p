@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
    <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\Animation.v4p" systemname="Animation" filename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\Animation.v4p">
-   <BOUNDS type="Window" left="49320" top="11340" width="16755" height="15660">
+   <BOUNDS type="Window" left="47985" top="11595" width="16755" height="15660">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="76">
    <BOUNDS type="Node" left="3375" top="10230" width="100" height="100">
@@ -603,7 +603,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="15">
+   <PIN pinname="Y Input Value" slicecount="1" values="9.66">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Nearest Point|">
    </PIN>
@@ -617,7 +617,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="-6">
+   <PIN pinname="Y Input Value" slicecount="1" values="-3.11">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Furthest Point|">
    </PIN>
@@ -1148,7 +1148,7 @@
    <PIN pinname="Size" slicecount="1" values="10">
    </PIN>
    </NODE>
-   <NODE id="5" componentmode="Hidden" systemname="Texture" filename="Texture.v4p" nodename="Texture.v4p" hiddenwhenlocked="0" managers="">
+   <NODE id="5" componentmode="InAWindow" systemname="Texture" filename="Texture.v4p" nodename="Texture.v4p" hiddenwhenlocked="0" managers="">
    <PIN pinname="Num objects (multiple of 4)" visible="1">
    </PIN>
    <BOUNDS type="Node" left="2430" top="1575" width="100" height="100">
@@ -1157,7 +1157,7 @@
    </PIN>
    <BOUNDS type="Box" left="1305" top="600" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="1980" top="420" width="20865" height="14445">
+   <BOUNDS type="Window" left="43755" top="14370" width="20865" height="14445">
    </BOUNDS>
    <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" encoded="0" values="||">
    </PIN>
@@ -1172,6 +1172,10 @@
    <PIN pinname="Backbuffer height" visible="1">
    </PIN>
    <PIN pinname="Texture complexity (1 - inf.)" visible="1">
+   </PIN>
+   <PIN pinname="Texture Scale" visible="1">
+   </PIN>
+   <PIN pinname="Files" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="5" srcpinname="Texture Out" dstnodeid="62" dstpinname="Input 1">
@@ -1429,5 +1433,37 @@
    <LINK srcnodeid="90" srcpinname="Output" dstnodeid="91" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="91" srcpinname="Output" dstnodeid="88" dstpinname="Period">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="93">
+   <BOUNDS type="Node" left="1170" top="825" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1170" top="825" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0.67">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Texture Scale|" encoded="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="93" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Texture Scale">
+   </LINK>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="94">
+   <BOUNDS type="Node" left="3825" top="135" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3825" top="135" width="1755" height="1020">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="4" encoded="0" values="textures\shiva1.png,textures\shiva2.png,textures\shiva3.png,textures\shiva4.png">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="Files">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="94" srcpinname="Output String" dstnodeid="5" dstpinname="Files">
    </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
-   <PATCH nodename="C:\Working\Light-Waves\Tunnels\3.applying generated textures to tunnel\1a.sketch7\Texture.v4p" filename="C:\Working\Light-Waves\Tunnels\2.texture-generation xperiments\2.texture sketches\texture2b-firstsketch.v4p" systemname="texture2b-firstsketch">
-   <BOUNDS height="14445" left="1980" top="420" type="Window" width="20865">
+   <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\Texture.v4p" filename="C:\Working\Light-Waves\Tunnels\2.texture-generation xperiments\2.texture sketches\texture2b-firstsketch.v4p" systemname="texture2b-firstsketch">
+   <BOUNDS height="14445" left="46110" top="8220" type="Window" width="20865">
    </BOUNDS>
    <NODE componentmode="InABox" id="8" nodename="Renderer (EX9)" systemname="Renderer (EX9)">
    <BOUNDS height="100" left="15696" top="8787" type="Node" width="100">
@@ -15,11 +15,11 @@
    </PIN>
    <PIN pinname="Fullscreen Dimensions" slicecount="1" values="AsDesktop">
    </PIN>
-   <PIN pinname="Fullscreen Antialiasing Quality Level" slicecount="1" values="3">
+   <PIN pinname="Fullscreen Antialiasing Quality Level" slicecount="1" values="NONE">
    </PIN>
    <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D24X8">
    </PIN>
-   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="3">
+   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="NONE">
    </PIN>
    <PIN pinname="Clip Device" slicecount="1" values="1">
    </PIN>
@@ -625,7 +625,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="390" top="7950" width="795" height="240">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.75">
+   <PIN pinname="Y Input Value" visible="1">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -645,7 +645,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1245" top="7950" width="795" height="240">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.2">
+   <PIN pinname="Y Input Value" slicecount="1" values="0.06">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -1025,6 +1025,8 @@
    </PIN>
    <PIN pinname="Output String" visible="1">
    </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Files" encoded="0">
+   </PIN>
    </NODE>
    <LINK srcnodeid="202" srcpinname="Output String" dstnodeid="47" dstpinname="Filename">
    </LINK>
@@ -1331,7 +1333,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="6600" top="7965" width="1755" height="390">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|The objects|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|The objects|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1347,7 +1349,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9735" top="135" width="2850" height="405">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Number of objects|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|Number of objects|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1363,7 +1365,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="14070" top="2115" width="3720" height="780">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Translate 9 extra copies surrounding the texture|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|Translate 9 extra copies surrounding the texture|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1379,7 +1381,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="14085" top="2835" width="2910" height="360">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|(So that the texture wraps)|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|(So that the texture wraps)|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1395,7 +1397,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7275" top="3375" width="2445" height="420">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Scale the objects|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|Scale the objects|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1411,7 +1413,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="17535" top="6060" width="2940" height="495">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Switch this to 9 to see each adjecent quad as a different color|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|Switch this to 9 to see each adjecent quad as a different color|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1425,7 +1427,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="15690" top="4455" width="3045" height="435">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|A little test renderer|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|A little test renderer|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1441,7 +1443,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="15690" top="4800" width="3075" height="540">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|(to make sure the textures are overlapping nicely)|" encoded="0">
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|(to make sure the textures are overlapping nicely)|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -1452,4 +1454,18 @@
    <PIN pinname="Size" slicecount="1" values="10">
    </PIN>
    </NODE>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="231">
+   <BOUNDS type="Node" left="5205" top="1275" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5205" top="1275" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Texture Scale|" encoded="0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0.68">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="231" srcpinname="Y Output Value" dstnodeid="155" dstpinname="Y Input Value">
+   </LINK>
    </PATCH>
