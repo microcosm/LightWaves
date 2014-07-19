@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
    <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\PanelTransform.v4p">
-   <BOUNDS height="10755" left="64620" top="12990" type="Window" width="9705">
+   <BOUNDS height="10755" left="69600" top="14955" type="Window" width="9705">
    </BOUNDS>
    <NODE componentmode="InABox" id="25" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
    <BOUNDS height="0" left="465" top="360" type="Node" width="0">
@@ -149,7 +149,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.224,0.227,0.232">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,-0.17,0,0,0.275,0.28,0.29">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="16" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
@@ -169,7 +169,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.157,0.158,0.155">
+   <PIN pinname="Y Input Value" slicecount="8" visible="1" values="0,0,0,0,0,0.191,0.192,0.189">
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="15" nodename="IOBox (String)" systemname="IOBox (String)">

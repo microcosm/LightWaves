@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.2.dtd" >
    <PATCH nodename="C:\Users\Andy\Desktop\Work\vvvv\LightWaves\root.v4p" systemname="test" filename="C:\Working\Light-Waves\test.v4p">
-   <BOUNDS type="Window" left="64770" top="7950" width="10005" height="9465">
+   <BOUNDS type="Window" left="66045" top="4365" width="10005" height="9465">
    </BOUNDS>
    <LINK srcnodeid="172" srcpinname="Y Output Value" dstnodeid="171" dstpinname="Enable Movement (mouse)">
    </LINK>
@@ -221,7 +221,7 @@
    <LINK srcnodeid="311" srcpinname="Y Output Value" dstnodeid="317" dstpinname="Fade Amount">
    </LINK>
    <NODE componentmode="InAWindow" filename="PanelTransform.v4p" id="312" nodename="PanelTransform.v4p" systemname="PanelTransform">
-   <BOUNDS height="10755" left="64620" top="12990" type="Window" width="9705">
+   <BOUNDS height="10755" left="69600" top="14955" type="Window" width="9705">
    </BOUNDS>
    <BOUNDS height="0" left="2652" top="915" type="Node" width="0">
    </BOUNDS>
@@ -499,9 +499,9 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE componentmode="Hidden" id="339" nodename="Switch (Value Input)" systemname="Switch (Value Input)">
